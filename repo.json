@@ -1,0 +1,9 @@
+{
+ "availableMods": {
+  "sod-cn-maps-extra": {
+   "mod": "https://raw.githubusercontent.com/tonicmuroq/vcmi-mods-repo/main/sod-cn-maps-extra/mod.json",
+   "download": "https://github.com/tonicmuroq/vcmi-mods-repo/archive/refs/heads/main.zip",
+   "downloadSize": 0.0
+  }
+ }
+}
