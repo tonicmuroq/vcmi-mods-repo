@@ -1,12 +1,13 @@
 {
 	"name" : "SoD Chinese Maps (Extra)",
 	"description" : "Chinese maps from the SOD地图 pack that are not in the Maps Collection mod.",
-	"version" : "1.0.0",
+	"version" : "1.1.0",
 	"author" : "various",
 	"contact" : "https://www.h3wog.com/",
 	"modType": "Maps",
 	"changelog" :
 	{
+		"1.1.0" : [ "Removed 9 maps that only differed from the Maps Collection by title" ],
 		"1.0.0" : [ "Initial release" ]
 	},
 	"language": "chinese",
