@@ -1,0 +1,846 @@
+{
+	"tonicMiniNostalgia": {
+		"name": "Tonic Mini Nostalgia",
+		"description": "Mini Nostalgia layout (two central hubs, six outer players with dead-end town zones) with Tonic Mosaic richness.",
+		"minSize": "l",
+		"maxSize": "xl+u",
+		"players": "2-8",
+		"settings": {
+			"towns": {
+				"startingDwellingChances": [
+					100,
+					100
+				],
+				"spellResearch": true
+			}
+		},
+		"enabledHeroes": [
+			"gelu",
+			"dracon",
+			"mutare",
+			"mutareDrake",
+			"boragus",
+			"xeron",
+			"kilgor",
+			"roland",
+			"catherine",
+			"adrienne",
+			"sirMullich",
+			"undeadHaart"
+		],
+		"enabledArtifacts": [
+			"angelicAlliance",
+			"cloakOfTheUndeadKing",
+			"elixirOfLife",
+			"armorOfTheDamned",
+			"statueOfLegion",
+			"powerOfTheDragonFather",
+			"titansThunder",
+			"admiralsHat",
+			"bowOfTheSharpshooter",
+			"wizardsWell",
+			"ringOfTheMagi",
+			"cornucopia"
+		],
+		"zones": {
+			"1": {
+				"monsters": "weak",
+				"treasure": [
+					{
+						"min": 10000,
+						"max": 20000,
+						"density": 2
+					},
+					{
+						"min": 4000,
+						"max": 10000,
+						"density": 10
+					},
+					{
+						"min": 1500,
+						"max": 4000,
+						"density": 16
+					},
+					{
+						"min": 300,
+						"max": 1500,
+						"density": 12
+					}
+				],
+				"customObjects": {
+					"requiredObjects": {
+						"resource": {
+							"wood": {
+								"count": 2,
+								"guard": 0
+							},
+							"ore": {
+								"count": 2,
+								"guard": 0
+							},
+							"mercury": {
+								"count": 2,
+								"guard": 0
+							},
+							"sulfur": {
+								"count": 2,
+								"guard": 0
+							},
+							"crystal": {
+								"count": 2,
+								"guard": 0
+							},
+							"gems": {
+								"count": 2,
+								"guard": 0
+							},
+							"gold": {
+								"count": 5,
+								"guard": 0
+							}
+						},
+						"magicWell": {
+							"count": 1,
+							"guard": 0
+						},
+						"redwoodObservatory": {
+							"count": 1,
+							"guard": 0
+						},
+						"randomArtifactMinor": {
+							"count": 2,
+							"guard": 0
+						},
+						"randomArtifactMajor": {
+							"count": 1,
+							"guard": 3000
+						}
+					},
+					"commonObjects": [
+						{
+							"type": "magicWell",
+							"subtype": "magicWell",
+							"rmg": {
+								"value": 250,
+								"rarity": 100,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "mercenaryCamp",
+							"rmg": {
+								"value": 1500,
+								"rarity": 300,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "marlettoTower",
+							"rmg": {
+								"value": 1500,
+								"rarity": 300,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "starAxis",
+							"rmg": {
+								"value": 1500,
+								"rarity": 300,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "schoolOfWar",
+							"rmg": {
+								"value": 1000,
+								"rarity": 300,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "schoolOfMagic",
+							"rmg": {
+								"value": 1000,
+								"rarity": 300,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "arena",
+							"rmg": {
+								"value": 3000,
+								"rarity": 300,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "treeOfKnowledge",
+							"rmg": {
+								"value": 2500,
+								"rarity": 300,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "gardenOfRevelation",
+							"rmg": {
+								"value": 1500,
+								"rarity": 300,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "randomArtifactTreasure",
+							"rmg": {
+								"value": 2000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactMinor",
+							"rmg": {
+								"value": 5000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactMajor",
+							"rmg": {
+								"value": 10000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactRelic",
+							"rmg": {
+								"value": 20000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "libraryOfEnlightenment",
+							"rmg": {
+								"value": 12000,
+								"rarity": 100,
+								"zoneLimit": 1
+							}
+						}
+					],
+					"bannedObjects": {
+						"arena": true,
+						"gardenOfRevelation": true,
+						"libraryOfEnlightenment": true,
+						"magicWell": true,
+						"marlettoTower": true,
+						"mercenaryCamp": true,
+						"randomArtifactMajor": true,
+						"randomArtifactMinor": true,
+						"randomArtifactRelic": true,
+						"randomArtifactTreasure": true,
+						"schoolOfMagic": true,
+						"schoolOfWar": true,
+						"starAxis": true,
+						"treeOfKnowledge": true,
+						"freelancersGuild": true,
+						"tavern": true,
+						"marketOfTime": true,
+						"cartographer": true
+					}
+				},
+				"type": "playerStart",
+				"size": 40,
+				"owner": 1,
+				"playerTowns": {
+					"castles": 1
+				},
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gold": 1
+				}
+			},
+			"2": {
+				"type": "playerStart",
+				"size": 40,
+				"owner": 2,
+				"playerTowns": {
+					"castles": 1
+				},
+				"monsters": "weak",
+				"minesLikeZone": 1,
+				"treasureLikeZone": 1,
+				"customObjectsLikeZone": 1
+			},
+			"3": {
+				"monsters": "strong",
+				"treasure": [
+					{
+						"min": 35000,
+						"max": 60000,
+						"density": 7
+					},
+					{
+						"min": 15000,
+						"max": 35000,
+						"density": 11
+					},
+					{
+						"min": 6000,
+						"max": 15000,
+						"density": 14
+					},
+					{
+						"min": 1500,
+						"max": 6000,
+						"density": 14
+					}
+				],
+				"customObjects": {
+					"requiredObjects": {
+						"randomArtifactRelic": {
+							"count": 2,
+							"guard": 15000
+						},
+						"dragonUtopia": {
+							"count": 1,
+							"guard": 0
+						},
+						"libraryOfEnlightenment": {
+							"count": 1,
+							"guard": 10000
+						}
+					},
+					"commonObjects": [
+						{
+							"type": "magicWell",
+							"subtype": "magicWell",
+							"rmg": {
+								"value": 250,
+								"rarity": 100,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "mercenaryCamp",
+							"rmg": {
+								"value": 1500,
+								"rarity": 400,
+								"zoneLimit": 2
+							}
+						},
+						{
+							"type": "marlettoTower",
+							"rmg": {
+								"value": 1500,
+								"rarity": 400,
+								"zoneLimit": 2
+							}
+						},
+						{
+							"type": "starAxis",
+							"rmg": {
+								"value": 1500,
+								"rarity": 400,
+								"zoneLimit": 2
+							}
+						},
+						{
+							"type": "schoolOfWar",
+							"rmg": {
+								"value": 1000,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "schoolOfMagic",
+							"rmg": {
+								"value": 1000,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "arena",
+							"rmg": {
+								"value": 3000,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "treeOfKnowledge",
+							"rmg": {
+								"value": 2500,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "gardenOfRevelation",
+							"rmg": {
+								"value": 1500,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "randomArtifactTreasure",
+							"rmg": {
+								"value": 2000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactMinor",
+							"rmg": {
+								"value": 5000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactMajor",
+							"rmg": {
+								"value": 10000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactRelic",
+							"rmg": {
+								"value": 20000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "libraryOfEnlightenment",
+							"rmg": {
+								"value": 12000,
+								"rarity": 100,
+								"zoneLimit": 1
+							}
+						}
+					],
+					"bannedObjects": {
+						"arena": true,
+						"gardenOfRevelation": true,
+						"libraryOfEnlightenment": true,
+						"magicWell": true,
+						"marlettoTower": true,
+						"mercenaryCamp": true,
+						"randomArtifactMajor": true,
+						"randomArtifactMinor": true,
+						"randomArtifactRelic": true,
+						"randomArtifactTreasure": true,
+						"schoolOfMagic": true,
+						"schoolOfWar": true,
+						"starAxis": true,
+						"treeOfKnowledge": true,
+						"freelancersGuild": true,
+						"tavern": true,
+						"marketOfTime": true,
+						"cartographer": true
+					},
+					"bannedCategories": [
+						"dwelling",
+						"resourceGenerator"
+					]
+				},
+				"type": "treasure",
+				"size": 23
+			},
+			"4": {
+				"type": "playerStart",
+				"size": 40,
+				"owner": 3,
+				"playerTowns": {
+					"castles": 1
+				},
+				"monsters": "weak",
+				"minesLikeZone": 1,
+				"treasureLikeZone": 1,
+				"customObjectsLikeZone": 1
+			},
+			"5": {
+				"type": "playerStart",
+				"size": 40,
+				"owner": 5,
+				"playerTowns": {
+					"castles": 1
+				},
+				"monsters": "weak",
+				"minesLikeZone": 1,
+				"treasureLikeZone": 1,
+				"customObjectsLikeZone": 1
+			},
+			"6": {
+				"type": "playerStart",
+				"size": 40,
+				"owner": 4,
+				"playerTowns": {
+					"castles": 1
+				},
+				"monsters": "weak",
+				"minesLikeZone": 1,
+				"treasureLikeZone": 1,
+				"customObjectsLikeZone": 1
+			},
+			"7": {
+				"type": "playerStart",
+				"size": 40,
+				"owner": 7,
+				"playerTowns": {
+					"castles": 1
+				},
+				"monsters": "weak",
+				"minesLikeZone": 1,
+				"treasureLikeZone": 1,
+				"customObjectsLikeZone": 1
+			},
+			"8": {
+				"type": "playerStart",
+				"size": 40,
+				"owner": 8,
+				"playerTowns": {
+					"castles": 1
+				},
+				"monsters": "weak",
+				"minesLikeZone": 1,
+				"treasureLikeZone": 1,
+				"customObjectsLikeZone": 1
+			},
+			"9": {
+				"type": "playerStart",
+				"size": 40,
+				"owner": 6,
+				"playerTowns": {
+					"castles": 1
+				},
+				"monsters": "weak",
+				"minesLikeZone": 1,
+				"treasureLikeZone": 1,
+				"customObjectsLikeZone": 1
+			},
+			"10": {
+				"monsters": "strong",
+				"customObjects": {
+					"bannedCategories": [
+						"dwelling",
+						"resourceGenerator"
+					],
+					"requiredObjects": {
+						"artifact": {
+							"angelicAlliance": {
+								"count": 1,
+								"guard": 8000
+							}
+						},
+						"dragonUtopia": {
+							"count": 1,
+							"guard": 0
+						},
+						"marketOfTime": {
+							"market-of-time:marketOfTime": {
+								"count": 1,
+								"guard": 0
+							}
+						}
+					},
+					"commonObjects": [
+						{
+							"type": "magicWell",
+							"subtype": "magicWell",
+							"rmg": {
+								"value": 250,
+								"rarity": 100,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "mercenaryCamp",
+							"rmg": {
+								"value": 1500,
+								"rarity": 400,
+								"zoneLimit": 2
+							}
+						},
+						{
+							"type": "marlettoTower",
+							"rmg": {
+								"value": 1500,
+								"rarity": 400,
+								"zoneLimit": 2
+							}
+						},
+						{
+							"type": "starAxis",
+							"rmg": {
+								"value": 1500,
+								"rarity": 400,
+								"zoneLimit": 2
+							}
+						},
+						{
+							"type": "schoolOfWar",
+							"rmg": {
+								"value": 1000,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "schoolOfMagic",
+							"rmg": {
+								"value": 1000,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "arena",
+							"rmg": {
+								"value": 3000,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "treeOfKnowledge",
+							"rmg": {
+								"value": 2500,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "gardenOfRevelation",
+							"rmg": {
+								"value": 1500,
+								"rarity": 400,
+								"zoneLimit": 1
+							}
+						},
+						{
+							"type": "randomArtifactTreasure",
+							"rmg": {
+								"value": 2000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactMinor",
+							"rmg": {
+								"value": 5000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactMajor",
+							"rmg": {
+								"value": 10000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "randomArtifactRelic",
+							"rmg": {
+								"value": 20000,
+								"rarity": 500
+							}
+						},
+						{
+							"type": "libraryOfEnlightenment",
+							"rmg": {
+								"value": 12000,
+								"rarity": 100,
+								"zoneLimit": 1
+							}
+						}
+					],
+					"bannedObjects": {
+						"arena": true,
+						"gardenOfRevelation": true,
+						"libraryOfEnlightenment": true,
+						"magicWell": true,
+						"marlettoTower": true,
+						"mercenaryCamp": true,
+						"randomArtifactMajor": true,
+						"randomArtifactMinor": true,
+						"randomArtifactRelic": true,
+						"randomArtifactTreasure": true,
+						"schoolOfMagic": true,
+						"schoolOfWar": true,
+						"starAxis": true,
+						"treeOfKnowledge": true,
+						"freelancersGuild": true,
+						"tavern": true,
+						"marketOfTime": true,
+						"cartographer": true
+					}
+				},
+				"treasure": [
+					{
+						"min": 25000,
+						"max": 45000,
+						"density": 5
+					},
+					{
+						"min": 15000,
+						"max": 30000,
+						"density": 10
+					},
+					{
+						"min": 6000,
+						"max": 15000,
+						"density": 16
+					},
+					{
+						"min": 1500,
+						"max": 6000,
+						"density": 12
+					}
+				],
+				"type": "treasure",
+				"size": 23,
+				"neutralTowns": {
+					"towns": 1
+				},
+				"mines": {
+					"gold": 1,
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1
+				}
+			},
+			"11": {
+				"type": "treasure",
+				"size": 23,
+				"neutralTowns": {
+					"towns": 1
+				},
+				"monsters": "strong",
+				"minesLikeZone": 10,
+				"treasureLikeZone": 10,
+				"customObjectsLikeZone": 10
+			},
+			"12": {
+				"type": "treasure",
+				"size": 23,
+				"neutralTowns": {
+					"towns": 1
+				},
+				"monsters": "strong",
+				"minesLikeZone": 10,
+				"treasureLikeZone": 10,
+				"customObjectsLikeZone": 10
+			},
+			"13": {
+				"type": "treasure",
+				"size": 23,
+				"neutralTowns": {
+					"towns": 1
+				},
+				"monsters": "strong",
+				"minesLikeZone": 10,
+				"treasureLikeZone": 10,
+				"customObjectsLikeZone": 10
+			},
+			"14": {
+				"type": "treasure",
+				"size": 23,
+				"neutralTowns": {
+					"towns": 1
+				},
+				"monsters": "strong",
+				"minesLikeZone": 10,
+				"treasureLikeZone": 10,
+				"customObjectsLikeZone": 10
+			},
+			"15": {
+				"type": "treasure",
+				"size": 23,
+				"neutralTowns": {
+					"towns": 1
+				},
+				"monsters": "strong",
+				"minesLikeZone": 10,
+				"treasureLikeZone": 10,
+				"customObjectsLikeZone": 10
+			}
+		},
+		"connections": [
+			{
+				"a": "2",
+				"b": "3",
+				"guard": 45000
+			},
+			{
+				"a": "1",
+				"b": "3",
+				"guard": 45000
+			},
+			{
+				"a": "5",
+				"b": "10",
+				"guard": 9000
+			},
+			{
+				"a": "9",
+				"b": "12",
+				"guard": 9000
+			},
+			{
+				"a": "4",
+				"b": "11",
+				"guard": 9000
+			},
+			{
+				"a": "6",
+				"b": "15",
+				"guard": 9000
+			},
+			{
+				"a": "7",
+				"b": "14",
+				"guard": 9000
+			},
+			{
+				"a": "8",
+				"b": "13",
+				"guard": 9000
+			},
+			{
+				"a": "1",
+				"b": "4",
+				"guard": 5000
+			},
+			{
+				"a": "1",
+				"b": "5",
+				"guard": 5000
+			},
+			{
+				"a": "1",
+				"b": "6",
+				"guard": 5000
+			},
+			{
+				"a": "2",
+				"b": "7",
+				"guard": 5000
+			},
+			{
+				"a": "2",
+				"b": "8",
+				"guard": 5000
+			},
+			{
+				"a": "2",
+				"b": "9",
+				"guard": 5000
+			}
+		]
+	}
+}

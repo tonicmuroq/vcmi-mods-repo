@@ -4,6 +4,11 @@
    "mod": "https://raw.githubusercontent.com/tonicmuroq/vcmi-mods-repo/main/sod-cn-maps-extra/mod.json",
    "download": "https://github.com/tonicmuroq/vcmi-mods-repo/archive/refs/heads/main.zip",
    "downloadSize": 13.213
+  },
+  "tonic": {
+   "mod": "https://raw.githubusercontent.com/tonicmuroq/vcmi-mods-repo/main/tonic/mod.json",
+   "download": "https://github.com/tonicmuroq/vcmi-mods-repo/releases/download/tonic/tonic.zip",
+   "downloadSize": 0.012
   }
  }
 }

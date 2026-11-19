@@ -1,0 +1,19 @@
+{
+	"name": "Tonic",
+	"description": "Rich random map templates: Tonic, Tonic Mosaic, Muzgob Azure, Tonic Nostalgia, Tonic Mini Nostalgia.",
+	"author": "tonic",
+	"version": "1.1",
+	"contact": "",
+	"modType": "Templates",
+	"keepDisabled": false,
+	"compatibility": {
+		"min": "1.6"
+	},
+	"templates": [
+		"tonic.json",
+		"tonicMosaic.json",
+		"muzgobAzure.json",
+		"tonicNostalgia.json",
+		"tonicMiniNostalgia.json"
+	]
+}
